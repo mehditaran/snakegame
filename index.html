@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="style.css">	
+</head>
+<body>
+	<div class="container">
+		<div id="overlay">
+			Your Final Score : <span id="final_score"></span>
+			<br>
+			<a onclick="window.location.reload()" href="#"> click to play again</a>
+		</div>
+		<canvas id="canvas" width="600" height="450">
+			<p>soury , this browser does not support this canvas element</p>
+		</canvas>
+		<div id="status">
+			<div id="score"></div>
+			<div id="high_score"></div>
+			<button onclick="resetscore()" id="reset_score">Reset High Score</button>
+		</div>
+	</div>
+<!--jquery-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<!--main js-->
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
